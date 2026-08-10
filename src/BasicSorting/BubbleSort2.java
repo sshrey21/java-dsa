@@ -14,9 +14,9 @@ public class BubbleSort2 {
         int[] arr = {-2, 1, 4, 10, 12, 3, 0, 9, -9, 10, 2, 4};
         int n = arr.length;
         print(arr);
-        for (int i = 0; i <= n - 1; i++) {
+        for (int i = 0; i < n - 1; i++) {
             boolean isSorted = true;
-            for (int j = 0; j < n - 1; j++) {
+            for (int j = 0; j < n - 1-i; j++) {
                 if (arr[j] > arr[j + 1]) {
                     isSorted = false;
                     break;
