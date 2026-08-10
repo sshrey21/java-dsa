@@ -26,7 +26,7 @@ public class ChatGPT {
                 j++;
             }
         }
-        System.out.println("j is:"+ jcreate );
+        System.out.println("j is:"+ j );
     }
     public static void main(String[] args) {
         System.out.println("Enter size of the array:-");
