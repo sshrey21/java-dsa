@@ -28,7 +28,7 @@ public class floorInSortedArray {
     }
     public static void main(String[] args) {
         int[] arr={1,2,8,10,10,12,19};
-        int x = 14;
+        int x = 0;
         int index = floorArray(arr, x);
         System.out.println("floor present at "+index);
     }
